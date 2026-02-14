@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amna Noor | Cybersecurity Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loader">
+        <h2 id="loading-text">Loading Secure Modules: 0%</h2>
+        <div class="spinner"></div>
+    </div>
+
+    <header>
+        <nav>
+            <h2 class="logo">&lt;Amna/&gt;</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="bg-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="video-overlay"></div>
+
+    <div class="hero-content reveal">
+        <h3 class="greeting">Initialising... Success!</h3>
+        <h1>Amna Noor</h1>
+        <p class="typewriter-container"><span class="typewriter"></span><span class="cursor">|</span></p>
+        <p class="hero-desc">
+            Bridging the gap between software development and robust security. 
+            Focused on DevSecOps, Cloud Security, and building bulletproof applications.
+        </p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+    <section id="about" class="section reveal">
+        <h2 class="section-title">About <span>Me</span></h2>
+        
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    Hello! I am a Computer Science student with a deep-rooted passion for <strong>Cybersecurity, Ethical Hacking, and Secure Software Development</strong>. My journey started with a simple curiosity about how digital systems work, which quickly evolved into a drive to protect them.
+                </p>
+                <p>
+                    I don't just look for vulnerabilities; I build solutions. From developing logic-driven applications like a <em>Password Strength Checker</em> to participating in competitive events like the <em>Nike Hackathon</em>, I actively apply my theoretical knowledge to real-world problems.
+                </p>
+                <p>
+                    When I'm not coding or analyzing security frameworks, I'm continuously expanding my knowledge—embracing a <strong>Growth Mindset</strong> to stay ahead in the ever-evolving tech landscape. My goal is to become a top-tier security professional who makes the internet a safer place.
+                </p>
+            </div>
+
+            <div class="about-skills">
+                <h3><i class="fa-solid fa-terminal"></i> Core Skills</h3>
+                <div class="skills-grid">
+                    <span class="skill-tag"><i class="fa-brands fa-python"></i> Python</span>
+                    <span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+                    <span class="skill-tag"><i class="fa-solid fa-shield-halved"></i> Web Security</span>
+                    <span class="skill-tag"><i class="fa-solid fa-bug"></i> Bug Bounty</span>
+                    <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML/CSS</span>
+                    <span class="skill-tag"><i class="fa-solid fa-database"></i> SQL</span>
+                    <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git/GitHub</span>
+                    <span class="skill-tag"><i class="fa-solid fa-server"></i> Linux</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="expertise" class="section reveal">
+        <h2 class="section-title">Technical <span>Stack</span></h2>
+        <p class="section-subtitle">The tools and technologies I use to build scalable, secure, and intelligent systems.</p>
+        
+        <div class="expertise-grid">
+            <div class="exp-card">
+                <div class="exp-header">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h3>Full-Stack Dev</h3>
+                </div>
+                <p>Building responsive frontends with <strong>React.js</strong> & <strong>TypeScript</strong>, and robust backends using <strong>FastAPI</strong>.</p>
+            </div>
+
+            <div class="exp-card">
+                <div class="exp-header">
+                    <i class="fa-solid fa-cloud"></i>
+                    <h3>Cloud & DevOps</h3>
+                </div>
+                <p>Deploying and scaling applications with <strong>Docker</strong>, <strong>Kubernetes (Minikube)</strong>, and <strong>Helm</strong> charts.</p>
+            </div>
+
+            <div class="exp-card">
+                <div class="exp-header">
+                    <i class="fa-solid fa-user-shield"></i>
+                    <h3>Auth & Security</h3>
+                </div>
+                <p>Implementing secure authentication using <strong>JWT</strong> and <strong>Better Auth</strong>, focused on system integrity.</p>
+            </div>
+
+            <div class="exp-card">
+                <div class="exp-header">
+                    <i class="fa-solid fa-robot"></i>
+                    <h3>AI & Databases</h3>
+                </div>
+                <p>Integrating <strong>AI Chatbots</strong> and managing structured data with <strong>SQL</strong> and <strong>System Design</strong> patterns.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section dark">
+        <h2 class="section-title reveal">My <span>Projects</span></h2>
+        <div class="project-grid reveal">
+            <div class="card featured-card">
+    <div class="card-badge">Current Sprint</div>
+    <i class="fa-solid fa-microchip card-icon"></i>
+    <h3>AI-Powered Cloud Security Hackathon</h3>
+    <p>Developing a scalable full-stack ecosystem using <strong>FastAPI, React, & Kubernetes</strong>. Featuring an <strong>AI Chatbot</strong> for log analysis and <strong>JWT/Better Auth</strong> for zero-trust security.</p>
+    
+    <div class="tech-stack-mini">
+        <span>Docker</span> <span>K8s</span> <span>FastAPI</span> <span>TypeScript</span>
+    </div>
+
+    <div class="card-links">
+        <span class="status-tag"><i class="fa-solid fa-spinner fa-spin"></i> In Development</span>
+        <a href="https://github.com/Amna-Noor27" target="_blank"><i class="fa-brands fa-github"></i> Track Progress</a>
+    </div>
+</div>
+
+            <div class="card">
+                <i class="fa-solid fa-list-check card-icon"></i>
+                <h3>Todo List App</h3>
+                <p>Task management web app with modern UI.</p>
+                <div class="card-links">
+                    <a href="https://todo-list-two-delta-22.vercel.app/" target="_blank"><i class="fa-solid fa-link"></i> Live</a>
+                    <a href="https://github.com/Amna-Noor27/Todo_list" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-shield-halved card-icon"></i>
+                <h3>Password Checker</h3>
+                <p>Streamlit app to analyze password security.</p>
+                <div class="card-links">
+                    <a href="https://passwordstrengthchecker-2.streamlit.app/" target="_blank"><i class="fa-solid fa-link"></i> Live</a>
+                    <a href="https://github.com/Amna-Noor27/Password_Strength_Checker" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-brain card-icon"></i>
+                <h3>Growth Mindset App</h3>
+                <p>Interactive data transformation & visualization app.</p>
+                <div class="card-links">
+                    <a href="https://growthmindsetproject2.streamlit.app/" target="_blank"><i class="fa-solid fa-link"></i> Live</a>
+                    <a href="https://github.com/Amna-Noor27/Growth_Mindset_Project" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-calculator card-icon"></i>
+                <h3>Unit Convertor</h3>
+                <p>Unit conversion tool built using Streamlit.</p>
+                <div class="card-links">
+                    <a href="https://unitconvertorproject-2.streamlit.app/" target="_blank"><i class="fa-solid fa-link"></i> Live</a>
+                    <a href="https://github.com/Amna-Noor27/Unit_Convertor_Project" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-shoe-prints card-icon"></i>
+                <h3>Nike Hackathon</h3>
+                <p>Modern responsive frontend hackathon project.</p>
+                <div class="card-links">
+                    <a href="https://nike-hackathon-orpin.vercel.app/" target="_blank"><i class="fa-solid fa-link"></i> Live</a>
+                    <a href="https://github.com/Amna-Noor27/Nike_Hackathon" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="section reveal">
+    <h2 class="section-title">System <span>Terminal</span></h2>
+    <div class="terminal-window">
+        <div class="terminal-header">
+            <div class="dot red"></div>
+            <div class="dot yellow"></div>
+            <div class="dot green"></div>
+            <span class="terminal-title">amna@security-node: ~</span>
+        </div>
+        <div class="terminal-body" id="terminal-body">
+            <div class="terminal-line">Type <span class="cmd">help</span> to see available commands.</div>
+            <div class="terminal-input-line">
+                <span class="prompt">amna@root:~$</span>
+                <input type="text" id="terminal-input" autofocus>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="section reveal">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <div class="contact-box">
+            <p><i class="fa-solid fa-envelope"></i> noomusarrat123@gmail.com</p>
+            <p><i class="fa-brands fa-github"></i> <a href="https://github.com/Amna-Noor27" target="_blank">Amna-Noor27</a></p>
+            <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/amnanoor27/" target="_blank">LinkedIn Profile</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Amna Noor | Built with secure code &lt;/&gt;</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
