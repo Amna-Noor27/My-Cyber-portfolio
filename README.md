@@ -3,7 +3,7 @@
 Welcome to my professional cybersecurity portfolio. This project is a blend of modern web development and a "Deep Tech" security aesthetic, designed to showcase my skills in Ethical Hacking, DevSecOps, and Secure Software Development.
 
 ## 🚀 Live Demo
-Check out the live site here: **[Link Paste Karein Yahan]**
+Check out the live site here: **(https://amna-noor27.github.io/My-Cyber-portfolio/)**
 
 ## ✨ Key Features
 * **Interactive Terminal:** A functional command-line interface to explore my skills and projects.
